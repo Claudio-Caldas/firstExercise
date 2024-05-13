@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+
+    background-color: rgb(214, 231, 196);
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15pt;
+    color: rgb(72, 82, 63);
+    
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+background-image: url(../img/Matrix.png);
+border-radius: 4%;
+padding: 8px 25px 28px 25px;
+max-width: 650px;
+min-width:250px;
+height: 380px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#msg {
+    color: rgb(196, 230, 196);
+    font-size: 1.8em;
+    max-width: 750px;
+    min-width:250px;
+    height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+#msg span {
+    display: inline-block;
+    animation: msg 10s linear infinite;
+ }
+
+  @keyframes msg {
+    0% {
+      transform: translate(-100%, 0);
+    }
+    100% {
+      transform: translate(180%, 0);
+    }
+  }
+
+  #planet {
+
+    text-align: center;
+    margin:auto;
+    
+  }
+
+#img {
+    width: 250px;
+    height: 250px;
+    padding-top: 2%;
+    margin-bottom: .5%;
+    margin-top: 5px;
+      
+    } 
+
+#right {
+
+float: left;
+
+}
+
+#left { 
+
+    float: right;
+    
+}
+
+#left , #right {
+  padding-top: 5%;
+  font-size: 1.2em;
+  color: rgb(196, 230, 196);
+  font-weight: 700;
+  
+}
+
+footer {
+    text-align: center;
+    font-size: 16pt;
+}
+
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelloWorld</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/computer.ico" type="image/x-icon">
+</head>
+<body>
+   <header>
+        <h1>The famous first exercise</h1>
+   </header>
+   <section>
+        <div id="msg">
+            <span>*** Hello, world!!! ***</span>
+        </div>
+        <div id="planet">
+            <img id="img" src="./img/earth-320.png" alt="">
+        </div>
+        
+        <div id="right">
+
+        </div>
+        <div id="left">
+
+        </div>
+   </section>
+   <footer>
+        <p>Cláudio Caldas - 2024</p>
+   </footer>
+   <script defer>
+    function clock(){  
+            
+            let date = new Date()
+            let h = date.getHours()
+            if(h < 10){
+                h = `0${h}`
+            }
+            let m = date.getMinutes()
+            if(m < 10){
+                m = `0${m}`
+            }
+            let s = date.getSeconds()
+            if(s < 10){
+                s = `0${s}`
+            }
+            let res1 = document.getElementById('left')
+            let actualHour = `${h}:${m}:${s}` 
+
+            res1.innerHTML = actualHour
+    }   
+    setInterval(clock,1000)
+
+     function date(){
+        let date = new Date()
+        let res2 = document.getElementById('right')
+        let today = date.toLocaleDateString()
+        res2.innerHTML = today
+        }
+   date()
+   </script>
+</body>
+</html>
