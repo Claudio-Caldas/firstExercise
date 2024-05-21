@@ -14,12 +14,12 @@ body {
 
 h1 {
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: -15px;
 }
 
 #container {
   margin: auto;
-  margin-top: 15px;
+  margin-top: 25px;
   width: 85vw;
   
      
@@ -32,8 +32,8 @@ h1 {
   min-width:125px;
   text-align: center;
   padding-bottom: 20px;
-  margin-bottom: -120px;
-  background-image: url(../img/Matrix.png);
+  margin-bottom: -115px;
+ 
   border-radius: 100%
   
 }
@@ -132,7 +132,7 @@ footer p a {
 }
 
 footer p a:hover {
-  color:rgb(50, 182, 50);
+  color:rgb(5, 41, 5);
   font-size: 1.4em;
   text-decoration: underline;
   transition: 2s;
