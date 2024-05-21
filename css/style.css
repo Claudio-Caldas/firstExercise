@@ -14,17 +14,46 @@ body {
 
 h1 {
   text-align: center;
+  margin-bottom: 5px;
+}
+
+#container {
+  margin: auto;
+  margin-top: 15px;
+  width: 85vw;
+  
+     
+}
+
+#me {
+  
+  margin: auto;
+  max-width: 350px; 
+  min-width:125px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: -120px;
+  background-image: url(../img/Matrix.png);
+  border-radius: 100%
+  
+}
+
+
+#me-image {
+  padding: 30px 0px;
+  
 }
 
 section {
 background-image: url(../img/Matrix.png);
 border-radius: 4%;
 padding: 8px 25px 28px 25px;
-max-width: 650px;
+max-width: 650px; 
 min-width:250px;
 height: 380px;
-margin-left: auto;
-margin-right: auto;
+
+margin: auto;
+box-shadow: .2px .2px 5px rgb(72, 82, 63) ;
 }
 
 #msg {
@@ -92,6 +121,24 @@ footer {
     text-align: center;
     font-size: 16pt;
 }
+
+footer p {
+  margin-top:2px
+}
+
+footer p a {
+    color:rgb(72, 82, 63);
+    text-decoration: none;
+}
+
+footer p a:hover {
+  color:rgb(50, 182, 50);
+  font-size: 1.4em;
+  text-decoration: underline;
+  transition: 2s;
+  
+}
+
 
 
 
