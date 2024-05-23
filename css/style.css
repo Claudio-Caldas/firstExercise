@@ -20,8 +20,9 @@ h1 {
 
 #container {
   margin: auto;
-  margin-top: 25px;
+  margin-top: 75px;
   width: 85vw;
+  
   
      
 }
@@ -35,6 +36,7 @@ h1 {
   padding-bottom: 20px;
   margin-bottom: -75px;
   margin-top: 25px; 
+ 
 }
 
 
@@ -68,7 +70,7 @@ box-shadow: .2px .2px 5px rgb(72, 82, 63) ;
 }
 #msg span {
     display: inline-block;
-    animation: msg 10s linear infinite;
+    animation: msg 7s linear infinite;
  }
 
   @keyframes msg {
@@ -76,14 +78,15 @@ box-shadow: .2px .2px 5px rgb(72, 82, 63) ;
       transform: translate(-100%, 0);
     }
     100% {
-      transform: translate(180%, 0);
+      transform: translate(100%, 0);
     }
   }
 
-  #planet {
+  #me {
 
     text-align: center;
     margin:auto;
+    margin-top: -20px;
     
   }
 
