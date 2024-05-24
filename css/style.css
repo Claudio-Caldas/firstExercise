@@ -22,7 +22,7 @@ body {
   margin: auto;
   margin-top: 25px;
   width: 85vw; 
-  margin-bottom: 7px;
+  margin-bottom: 17px;
   max-width: 750px;
   min-width: 290px;
   
@@ -56,7 +56,7 @@ border-radius: 4% 4% 4% 4%;
 padding: 8px 25px 28px 25px;
 max-width: 650px; 
 min-width:250px;
-height: 340px;
+height: 360px;
 font-family: "Kalam", cursive;
 color: rgb(214, 231, 196);
 
@@ -139,12 +139,13 @@ float: left;
 
  p {
   
-  margin-top:-85px;
+  margin-top:-5px;
   color:rgb(196, 230, 196);
   
   font-size: 1.2em;
   text-shadow: 2px 2px 3px rgb(111, 228, 111);
   text-align: center;
+  margin-bottom: 30px;
   
   
   
