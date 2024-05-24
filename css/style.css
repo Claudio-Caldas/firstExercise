@@ -45,8 +45,9 @@ body {
 
 
 #me-image {
-  padding: 10px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
   width:155px;
+  margin-top: 15px;
   
 }
 
@@ -56,7 +57,7 @@ border-radius: 4% 4% 4% 4%;
 padding: 8px 25px 28px 25px;
 max-width: 650px; 
 min-width:250px;
-height: 360px;
+height: 397px;
 font-family: "Kalam", cursive;
 color: rgb(214, 231, 196);
 
@@ -131,6 +132,7 @@ float: left;
   text-shadow: 2px 2px 3px black;
   font-weight: 700;
   font-family: "Kalam", cursive;
+ 
   
   
 }
@@ -139,7 +141,7 @@ float: left;
 
  p {
   
-  margin-top:-5px;
+  margin-top:-10px;
   color:rgb(196, 230, 196);
   
   font-size: 1.2em;
