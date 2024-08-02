@@ -20,11 +20,14 @@ body {
 .container {
 
   margin: auto;
-  margin-top: 25px;
+  margin-top: 45px;
   width: 85vw; 
   margin-bottom: 17px;
   max-width: 750px;
   min-width: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
   
      
