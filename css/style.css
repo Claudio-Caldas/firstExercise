@@ -6,14 +6,11 @@
 body {
 
     background-color: rgb(214, 231, 196);
-    font-family: "Kode Mono", monospace;
-    font-optical-sizing: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     font-style: normal;
-    
     color: rgb(72, 82, 63);
-    
-    
+       
 }
 
 
@@ -21,16 +18,13 @@ body {
 
   margin: auto;
   margin-top: 45px;
-  width: 85vw; 
   margin-bottom: 17px;
   max-width: 750px;
   min-width: 290px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
-     
+  height: 100vh;     
 }
 
 
@@ -40,17 +34,20 @@ body {
   max-width: 350px; 
   min-width:125px;
   text-align: center;
+  padding-top: 37px;
   padding-bottom: 20px;
-  margin-bottom: -75px;
-  margin-top: 25px; 
  
 }
 
 
 #me-image {
-  padding: 20px 0px 0px 0px;
+  padding: 20px 0px 20px 0px;
   width:155px;
   margin-top: 15px;
+  scale: 120%;
+  animation: world .7s infinite;
+  opacity: 1;
+  
   
 }
 
@@ -61,10 +58,7 @@ padding: 8px 25px 28px 25px;
 max-width: 650px; 
 min-width:250px;
 height: 397px;
-font-family: "Kalam", cursive;
 color: rgb(214, 231, 196);
-
-
 text-align: center;
 box-shadow: .2px .2px 5px rgb(72, 82, 63) ;
 margin-bottom:45px ;
@@ -72,14 +66,14 @@ margin-bottom:45px ;
 
 #msg {
     color: rgb(196, 230, 196);
-    font-size: 2.5em;
+    font-size: 1.5em;
     max-width: 750px;
     text-shadow: 2px 2px 3px black;
     height: 60px;
     overflow: hidden;
     white-space: nowrap; 
     margin-bottom: 5px;
-    margin-top: 2px;
+    margin-top: 7px;
     font-weight: bolder;
 }
 #msg span {
@@ -102,6 +96,8 @@ margin-bottom:45px ;
     text-align: center;
     margin:auto;
     margin-top: -20px;
+    background-size: cover;
+    background-position: center; 
     
   }
 
@@ -111,6 +107,8 @@ margin-bottom:45px ;
     padding-top: 2%;
     margin-bottom: .5%;
     margin-top: 5px;
+    
+    
       
     } 
 
@@ -128,29 +126,31 @@ float: left;
 }
 
 #left , #right {
-  padding-top: 42px;
+  padding-top: 12px;
   
   font-size: 1.2em;
   color: rgb(196, 230, 196);
   text-shadow: 2px 2px 3px black;
   font-weight: 700;
-  font-family: "Kalam", cursive;
+  
  
   
   
 }
 
-
+#link {
+margin-bottom: 35px;
+}
 
  p {
   
   margin-top:-10px;
   color:rgb(196, 230, 196);
-  
+  font-family: "Kalam", cursive;
   font-size: 1.2em;
-  text-shadow: 2px 2px 3px rgb(111, 228, 111);
+  
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   
   
   
@@ -172,14 +172,36 @@ float: left;
 }
 
  p a:hover {
-  color:rgb(111, 228, 111);
+  color:rgb(196, 230, 196);
+  background-color: black;
   font-size: 1.1em;
-  text-decoration: underline;
+  
   text-shadow: 2px 2px 3px black;
+  padding: 7px;
+  border-radius: 22px;
   transition: 2s;
   
 }
 
+@keyframes world {
+  0% {
+    transform:translateY(0%);
+    display: none;
+    
+  }
 
+  100% {
+    transform: translateY(-5%);
+   
+ 
+}
+
+}
+
+@media screen and (max-width:768px) {
+  .container {
+    margin: 0 5%;
+  }
+}
 
 
